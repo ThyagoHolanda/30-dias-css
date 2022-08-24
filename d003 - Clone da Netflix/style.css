@@ -26,6 +26,10 @@
     padding: 0;
 }
 
+body {
+    background-color: #141414;
+}
+
 header {
     background-image: linear-gradient(to bottom, #060606, #141414);
 }
@@ -36,8 +40,6 @@ header img {
 
 main {
     width: 100%;
-    height: 100%;
-    background-color: #141414;
     color: white;
 }
 
@@ -65,6 +67,11 @@ main #principal {
 .user h2 {
     text-align: center;
     line-break: strict;
+}
+
+.user>img:hover{
+    box-sizing: border-box;
+    border: solid white 2px ;
 }
 
 main #principal img  {
