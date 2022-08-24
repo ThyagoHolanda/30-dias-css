@@ -80,3 +80,8 @@ main #principal img  {
     margin: 10px;
     border-radius: 5px;
 }
+
+section>input{
+    display: ;
+    width: auto;
+}
