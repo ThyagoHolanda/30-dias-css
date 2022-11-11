@@ -21,17 +21,6 @@
          url("font/NetflixSans-Regular.woff2") format("woff2");
   }
 
-.button {
-    width: 150px;
-    height: 30px;
-    margin: auto;
-    background-color: #141414;
-    border-style: solid white 10px;
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
-  }
-
 
 *{
     margin: 0;
@@ -67,7 +56,7 @@ main h1 {
 
 main #principal {
     width: 750px;
-    margin: auto;
+    margin: auto auto 100px auto;
     padding: 10px;    
 }
 
@@ -75,6 +64,7 @@ main #principal {
     display: inline-block;
     max-width: 150px;
     cursor: pointer;
+    color: rgb(90, 90, 90);
 }
 
 .user h2 {
@@ -95,6 +85,21 @@ main #principal img  {
 }
 
 section>input{
-    display: ;
     width: auto;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    margin: auto auto auto auto;
+    padding: 0px;
+    border: none;
+    background-color: #14141400;
+    color: rgb(90, 90, 90);
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+section.button {
+    border: rgb(90, 90, 90) solid 1px;
 }
